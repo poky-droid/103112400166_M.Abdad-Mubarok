@@ -10,9 +10,11 @@ int main() {
    cin >> input;
    
    if (input >= 100) {
-      if(input / 100 == 1) hasil += "seratus ";
-      else hasil += satuan[input / 100] + " ratus ";
-      input %= 100;
+      if(input == 100 ){
+         cout << "seratus" << endl;
+         return 0;
+      };
+     
    }
    if (input >= 10) {
       if(input / 10 == 1) hasil += "sepuluh ";
