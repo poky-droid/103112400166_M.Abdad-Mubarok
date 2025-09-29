@@ -152,6 +152,7 @@ int main() {
 
 
 penjelasan unguided 1 
+program di atas digunakan untuk menghitung operasi aritmatika dasar dari 2 inputan yang dimasukan oleh user ,program di atas akan menampilkan penjumlajhan ,pengurangan , perkalian dan pembagian
 
 ### 2. (buatlah sebuah program yang menerima masukan angka dan mengeluarkan angka tersebut dalam bentuk tulisan .Angka yang akan di-input -kan user adalah bilangan bulat positif mulai dari 0 s.d 100)
 
@@ -197,6 +198,7 @@ int main() {
 
 
 penjelasan unguided 2
+program diatas bertujuan untuk mengubah inputan bentuk angka menjadi kalimat ,contoh inputa 11 akan memberikan output sebelas,mengguanakn array yang akan di panggil dengan kondiisi tertentu.
 
 ### 3. (buatlah program yang memberikan input output sbb)
 
