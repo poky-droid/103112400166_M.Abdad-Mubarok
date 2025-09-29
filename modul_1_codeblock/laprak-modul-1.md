@@ -194,21 +194,44 @@ int main() {
 
 penjelasan unguided 2
 
-### 3. (isi dengan soal unguided 3)
+### 3. (buatlah program yang memberikan input output sbb)
 
 ```C++
-source code unguided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n;
+  cout << "Masukkan angka: ";
+    cin >> n;
+
+    for (int i= n; i>=1; i--){
+       
+        for (int s = 0; s < n - i; s++) {
+            cout << "  ";
+        }
+        for (int j = i; j >= 1; j--) {
+            cout << j << " ";
+        }
+        cout << "*" ;
+        for (int j = 1; j <= i; j++) {
+            cout << " " << j;
+        }
+        cout << endl;
+   }
+
+   for (int sb = 0; sb < n; sb++) {
+        cout << "  ";
+    }
+    cout << "*" << endl;
+   
+   return 0;
+}
 ```
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_1](https://github.com/poky-droid/103112400166_M.Abdad-Mubarok/blob/main/modul_1_codeblock/output-soal3.png)
 
 penjelasan unguided 3
 
