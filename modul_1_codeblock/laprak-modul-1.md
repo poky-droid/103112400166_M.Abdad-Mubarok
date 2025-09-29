@@ -63,9 +63,13 @@ int main() {
      
    }
    if (input >= 10) {
-      if(input / 10 == 1) hasil += "sepuluh ";
-      else hasil += puluhan[input / 10] + " ";
-      input %= 10;
+      if (input >= 10 && input < 20) {
+         hasil += belasan[input - 10] + " ";
+         input = 0;
+      } else {
+         hasil += puluhan[input / 10] + " ";
+         input %= 10;
+      }
    }
    if (input > 0) {
       hasil += satuan[input] + " ";
