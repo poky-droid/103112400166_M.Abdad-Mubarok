@@ -9,7 +9,6 @@ Bahasa C++ merupakan bahasa pemrograman tingkat tinggi pada umumnya banyak digun
 #### 2. IDE ini mendukung berbagai compiler ,seperti GCC ,clang , dan visual C++
 
 ### B. Structur kontrol <br/>
-...
 #### 1. for termasuk ke dalam struktur kontrol perulanagn yang berfungsi menjalankan sebuah block perintah secara berulang sampai kondisi berhenti terpenuhi [2].
 #### 2. if akan mengeksekusi sepotong kode jika eksspresi yang jadi patokan terpenuhi [2]
 
@@ -39,6 +38,8 @@ int main() {
 
 ```
 penjelasan singkat guided 1
+
+program di atas digunakan untuk menghitung operasi aritmatika dasar dari 2 inputan yang dimasukan oleh user ,program di atas akan menampilkan penjumlajhan ,pengurangan , perkalian dan pembagian 
 
 ### 2. ...
 
@@ -78,6 +79,8 @@ int main() {
 }
 ```
 penjelasan singkat guided 2
+
+program diatas bertujuan untuk mengubah inputan bentuk angka menjadi kalimat ,contoh inputa 11 akan memberikan output sebelas
 
 ### 3. ...
 
