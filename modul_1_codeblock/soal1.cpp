@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-   int input1, input2;
+   float input1, input2;
    cout << "Masukkan dua angka: ";
    cin >> input1 >> input2;
     cout << "penjumlahan: " ;

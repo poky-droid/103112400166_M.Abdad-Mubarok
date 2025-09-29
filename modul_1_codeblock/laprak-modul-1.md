@@ -39,10 +39,28 @@ penjelasan singkat guided 3
 
 ## Unguided 
 
-### 1. (isi dengan soal unguided 1)
+### 1. (Buatlah program yang menerima input-an dua buah bilangan bertipe float ,kemudian memberikan output- an hasil penjumlahan ,pengurangan ,perkalian ,dan pembagian dari dua bilangan tersebut )
 
 ```C++
-source code unguided 1
+s#include <iostream>
+
+using namespace std;
+
+int main() {
+   float input1, input2;
+   cout << "Masukkan dua angka: ";
+   cin >> input1 >> input2;
+    cout << "penjumlahan: " ;
+    cout << input1 + input2 << endl;
+    cout << "pengurangan: " ;
+    cout << input1 - input2 << endl;
+    cout << "perkalian: " ;
+    cout << input1 * input2 << endl;
+    cout << "pembagian: " ;
+    cout << input1 / input2 << endl;
+   return 0;
+}
+
 ```
 ### Output Unguided 1 :
 
