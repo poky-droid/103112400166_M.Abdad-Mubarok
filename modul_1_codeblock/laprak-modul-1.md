@@ -8,11 +8,10 @@ Bahasa C++ merupakan bahasa pemrograman tingkat tinggi pada umumnya banyak digun
 #### 1. code block merupakan IDe open source yang sering di gunakan untuk pemrograman c dan c++
 #### 2. IDE ini mendukung berbagai compiler ,seperti GCC ,clang , dan visual C++
 
-### B. pengenalan bahasa <br/>
+### B. Structur kontrol <br/>
 ...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+#### 1. for termasuk ke dalam struktur kontrol perulanagn yang berfungsi menjalankan sebuah block perintah secara berulang sampai kondisi berhenti terpenuhi [2].
+#### 2. if akan mengeksekusi sepotong kode jika eksspresi yang jadi patokan terpenuhi [2]
 
 ## Guided 
 
@@ -146,26 +145,52 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/poky-droid/103112400166_M.Abdad-Mubarok/blob/main/modul_1_codeblock/output-soal1.png)
 
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+
 
 penjelasan unguided 1 
 
-### 2. (isi dengan soal unguided 2)
+### 2. (buatlah sebuah program yang menerima masukan angka dan mengeluarkan angka tersebut dalam bentuk tulisan .Angka yang akan di-input -kan user adalah bilangan bulat positif mulai dari 0 s.d 100)
 
 ```C++
-source code unguided 2
+#include <iostream>
+using namespace std;
+ string satuan[] = {"", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
+ string belasan[] = {"sepuluh", "sebelas", "dua belas", "tiga belas", "empat belas", "lima belas", "enam belas", "tujuh belas", "delapan belas", "sembilan belas"};
+ string puluhan[] = {"", "", "dua puluh", "tiga puluh", "empat puluh", "lima puluh", "enam puluh", "tujuh puluh", "delapan puluh", "sembilan puluh"};
+int main() {
+   int input ;
+   string hasil = "";
+   cout << "Masukkan angka yang mau dijadikan kalimat : ";
+   cin >> input;
+   
+   if (input >= 100) {
+      if(input == 100 ){
+         cout << "seratus" << endl;
+         return 0;
+      };
+     
+   }
+   if (input >= 10) {
+      if (input >= 10 && input < 20) {
+         hasil += belasan[input - 10] + " ";
+         input = 0;
+      } else {
+         hasil += puluhan[input / 10] + " ";
+         input %= 10;
+      }
+   }
+   if (input > 0) {
+      hasil += satuan[input] + " ";
+   }
+   cout << "Dalam kata: " << hasil << endl;
+   return 0;
+}
 ```
 ### Output Unguided 2 :
 
 ##### Output 1
 ![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
-
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 2
 
@@ -192,5 +217,6 @@ penjelasan unguided 3
 
 ## Referensi
 [1] Dasar Pemrograman Logika Dengan C++   https://www.unika.ac.id/wp-content/uploads/2025/02/ebook-Berdi-Dasar-Logika-Pemrograman-C.pdf
+[2]https://code.tutsplus.com/id/php-control-structures-and-loops--cms-31999t
 <br>
 <br>...
