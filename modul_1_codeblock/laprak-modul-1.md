@@ -118,6 +118,7 @@ int main() {
 ```
 penjelasan singkat guided 3
 
+
 ## Unguided 
 
 ### 1. (Buatlah program yang menerima input-an dua buah bilangan bertipe float ,kemudian memberikan output- an hasil penjumlahan ,pengurangan ,perkalian ,dan pembagian dari dua bilangan tersebut )
@@ -237,9 +238,10 @@ int main() {
 ![Screenshot Output Unguided 3_1](https://github.com/poky-droid/103112400166_M.Abdad-Mubarok/blob/main/modul_1_codeblock/output-soal3.png)
 
 penjelasan unguided 3
+membuat pola segitiga angka simetris dengan tanda * di tengah. Angka menurun di kiri, naik di kanan, dan spasi digunakan untuk membentuk segitiga. Baris terakhir hanya berisi * di tengah.
 
 ## Kesimpulan
-...
+praktikum  modul 1 mengenalkan dasar-dasar c++dan penggunnaan code blocks IDE,pembelajaran menggunakan struktur kontrol ,serta menerapkan program sederhana . latihan yang dilakukan meliputi operasi aritmatika ,konvensi angka menjadi kata, dan pembuatan pola segitiga angka ,yang dapat membantu meningkatkan logika pemrograman 
 
 ## Referensi
 [1] Dasar Pemrograman Logika Dengan C++   https://www.unika.ac.id/wp-content/uploads/2025/02/ebook-Berdi-Dasar-Logika-Pemrograman-C.pdf
