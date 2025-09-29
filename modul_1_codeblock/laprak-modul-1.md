@@ -246,7 +246,7 @@ membuat pola segitiga angka simetris dengan tanda * di tengah. Angka menurun di 
 praktikum  modul 1 mengenalkan dasar-dasar c++dan penggunnaan code blocks IDE,pembelajaran menggunakan struktur kontrol ,serta menerapkan program sederhana . latihan yang dilakukan meliputi operasi aritmatika ,konvensi angka menjadi kata, dan pembuatan pola segitiga angka ,yang dapat membantu meningkatkan logika pemrograman 
 
 ## Referensi
-[1] Dasar Pemrograman Logika Dengan C++   https://www.unika.ac.id/wp-content/uploads/2025/02/ebook-Berdi-Dasar-Logika-Pemrograman-C.pdf
+[1] Dasar Pemrograman Logika Dengan C++   https://www.unika.ac.id/wp-content/uploads/2025/02/ebook-Berdi-Dasar-Logika-Pemrograman-C.pdf<br>
 [2]https://code.tutsplus.com/id/php-control-structures-and-loops--cms-31999t
 <br>
 <br>...
