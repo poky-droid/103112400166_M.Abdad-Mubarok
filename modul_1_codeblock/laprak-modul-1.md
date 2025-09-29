@@ -19,21 +19,96 @@ Bahasa C++ merupakan bahasa pemrograman tingkat tinggi pada umumnya banyak digun
 ### 1. ...
 
 ```C++
-source code guided 1
+#include <iostream>
+
+using namespace std;
+
+int main() {
+   float input1, input2;
+   cout << "Masukkan dua angka: ";
+   cin >> input1 >> input2;
+    cout << "penjumlahan: " ;
+    cout << input1 + input2 << endl;
+    cout << "pengurangan: " ;
+    cout << input1 - input2 << endl;
+    cout << "perkalian: " ;
+    cout << input1 * input2 << endl;
+    cout << "pembagian: " ;
+    cout << input1 / input2 << endl;
+   return 0;
+}
+
 ```
 penjelasan singkat guided 1
 
 ### 2. ...
 
 ```C++
-source code guided 2
+#include <iostream>
+using namespace std;
+ string satuan[] = {"", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
+ string belasan[] = {"sepuluh", "sebelas", "dua belas", "tiga belas", "empat belas", "lima belas", "enam belas", "tujuh belas", "delapan belas", "sembilan belas"};
+ string puluhan[] = {"", "", "dua puluh", "tiga puluh", "empat puluh", "lima puluh", "enam puluh", "tujuh puluh", "delapan puluh", "sembilan puluh"};
+int main() {
+   int input ;
+   string hasil = "";
+   cout << "Masukkan angka yang mau dijadikan kalimat : ";
+   cin >> input;
+   
+   if (input >= 100) {
+      if(input == 100 ){
+         cout << "seratus" << endl;
+         return 0;
+      };
+     
+   }
+   if (input >= 10) {
+      if(input / 10 == 1) hasil += "sepuluh ";
+      else hasil += puluhan[input / 10] + " ";
+      input %= 10;
+   }
+   if (input > 0) {
+      hasil += satuan[input] + " ";
+   }
+   cout << "Dalam kata: " << hasil << endl;
+   return 0;
+}
 ```
 penjelasan singkat guided 2
 
 ### 3. ...
 
 ```C++
-source code guided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n;
+  cout << "Masukkan angka: ";
+    cin >> n;
+
+    for (int i= n; i>=1; i--){
+       
+        for (int s = 0; s < n - i; s++) {
+            cout << "  ";
+        }
+        for (int j = i; j >= 1; j--) {
+            cout << j << " ";
+        }
+        cout << "*" ;
+        for (int j = 1; j <= i; j++) {
+            cout << " " << j;
+        }
+        cout << endl;
+   }
+
+   for (int sb = 0; sb < n; sb++) {
+        cout << "  ";
+    }
+    cout << "*" << endl;
+   
+   return 0;
+}
 ```
 penjelasan singkat guided 3
 
