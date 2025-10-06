@@ -259,7 +259,7 @@ for (;;){
 
 
 
-penjelasan unguided 1 
+penjelasan unguided 1 <br/>
 Program ini digunakan untuk melaksanakan operasi penambahan, pengurangan, dan perkalian di antara dua matriks yang berukuran 3x3.
 
 Setiap operasi dipisahkan ke dalam fungsi yang berbeda agar alur program menjadi lebih teratur.
@@ -313,7 +313,7 @@ int main(){
 ![Screenshot Output Unguided 2_1](https://github.com/poky-droid/103112400166_M.Abdad-Mubarok/blob/main/modul_2/ss_soal_2.png)
 
 
-penjelasan unguided 2
+penjelasan unguided 2 <br/>
 Program ini mengilustrasikan metode pemanfaatan pointer untuk menghitung ukuran dan perimeter dari suatu persegi panjang. Nilai dari panjang dan lebar dapat diakses melalui pointer (ptrPanjang, ptrLebar). Ketika nilai-nilai tersebut dimodifikasi melalui pointer, maka nilai-nilai dalam variabel asal turut berubah karena keduanya merujuk pada alamat memori yang identik. Program ini menunjukkan penerapan pointer dalam pengolahan data secara langsung.
 
 ## Kesimpulan
