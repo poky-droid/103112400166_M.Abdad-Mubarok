@@ -238,39 +238,61 @@ Struktur pemisahan ini mencerminkan praktik modular programming dan meningkatkan
 #include <iostream>
 using namespace std;
 
-float nilai[10];
+void tampilArray(int arr[3][3]) {
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cout << arr[i][j] << "\t";
+        }
+        cout << endl;
+    }
+    cout << endl;
+}
 
-float nilaiAkhir(float nilaiTugas, float nilaiUts, float nilaiUas) {
-    return (0.3 * nilaiTugas) + (0.3 * nilaiUts) + (0.4 * nilaiUas);
+void tukarPointer(int *p1, int *p2) {
+    int temp = *p1;
+    *p1 = *p2;
+    *p2 = temp;
+}
+
+void tukarElemenArray(int arr1[3][3], int arr2[3][3], int baris, int kolom) {
+    int *p1 = &arr1[baris][kolom];
+    int *p2 = &arr2[baris][kolom];
+    tukarPointer(p1, p2);
 }
 
 int main() {
-    int banyak ;
-    cout << "Masukkan banyak mahasiswa (maks 10): ";
-    cin >> banyak;
-    if (banyak > 10) {
-        cout << "Maksimal mahasiswa adalah 10." << endl;
-        return 1;
-    }
-    float nilaiTugas, nilaiUts, nilaiUas;
+    int array1[3][3] = {
+        {1, 2, 3},
+        {4, 5, 6},
+        {7, 8, 9}
+    };
+    
+    int array2[3][3] = {
+        {10, 11, 12},
+        {13, 14, 15},
+        {16, 17, 18}
+    };
 
-    for (int i = 0; i < banyak; i++) {
-        cout << "Mahasiswa ke-" << i + 1 << endl;
-        cout << "Masukkan nilai tugas: ";
-        cin >> nilaiTugas;
-        cout << "Masukkan nilai UTS: ";
-        cin >> nilaiUts;
-        cout << "Masukkan nilai UAS: ";
-        cin >> nilaiUas;
+    cout << "Array 1 sebelum ditukar:\n";
+    tampilArray(array1);
+    cout << "Array 2 sebelum ditukar:\n";
+    tampilArray(array2);
 
-        nilai[i] = nilaiAkhir(nilaiTugas, nilaiUts, nilaiUas);
-        cout << endl;
-    }
+    int baris = 1, kolom = 2; 
+    tukarElemenArray(array1, array2, baris, kolom);
 
-    cout << "\n=== Hasil Nilai Akhir ===\n";
-    for (int i = 0; i < banyak; i++) {
-        cout << "Nilai akhir mahasiswa ke-" << i + 1 << ": " << nilai[i] << endl;
-    }
+    cout << "Setelah menukar elemen posisi [" << baris << "][" << kolom << "]:\n";
+    cout << "Array 1:\n";
+    tampilArray(array1);
+    cout << "Array 2:\n";
+    tampilArray(array2);
+
+    int a = 100, b = 200;
+    int *pa = &a, *pb = &b;
+
+    cout << "Sebelum tukar pointer: a = " << a << ", b = " << b << endl;
+    tukarPointer(pa, pb);
+    cout << "Setelah tukar pointer: a = " << a << ", b = " << b << endl;
 
     return 0;
 }
