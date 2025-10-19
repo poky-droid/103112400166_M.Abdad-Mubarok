@@ -293,7 +293,7 @@ int main() {
     cout << "Sebelum tukar pointer: a = " << a << ", b = " << b << endl;
     tukarPointer(pa, pb);
     cout << "Setelah tukar pointer: a = " << a << ", b = " << b << endl;
-
+ 
     return 0;
 }
 
