@@ -510,7 +510,7 @@ int main() {
 ### Output Unguided 1 : 
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/poky-droid/103112400166_M.Abdad-Mubarok/blob/main/modul_3/ss_soal_1.png)
+![Screenshot Output Unguided 1_1](https://github.com/poky-droid/103112400166_M.Abdad-Mubarok/blob/main/modul_4/foto/soal1.png)
 
 
 
@@ -699,7 +699,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 2
-![Screenshot Output Unguided 2_1](https://github.com/poky-droid/103112400166_M.Abdad-Mubarok/blob/main/modul_3/ss_soal_2.png)
+![Screenshot Output Unguided 2_1](https://github.com/poky-droid/103112400166_M.Abdad-Mubarok/blob/main/modul_4/foto/soal2.png)
 
 
 penjelasan unguided 2 <br/>
