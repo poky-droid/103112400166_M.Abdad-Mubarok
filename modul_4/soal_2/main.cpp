@@ -1,35 +1,31 @@
+#include <iostream>
 #include "Singlylist.h"
+
 int main() {
-    while (true) {
-        List L;
-        createList(L);
+    List L;
+    createList(L);
 
-        insertFirst(L, 2);
-        insertFirst(L, 8);
-        insertFirst(L, 9);
-        insertFirst(L, 12);
+    insertFirst(L, 2);
+    insertFirst(L, 8);
+    insertFirst(L, 9);
+    insertFirst(L, 12);
 
-        cout << "Linked List Awal: ";
-        printList(L);
+    cout << "Linked List Awal: ";
+    printList(L);
 
-        deleteFirst(L);
+    deleteFirst(L);
+    deleteLast(L);
+    deleteAfter(L.first);
 
-        deleteLast(L);
+    cout << "\nSetelah Penghapusan: ";
+    printList(L);
 
-        deleteAfter(L.first);
+    cout << "\nJumlah node : " << nbList(L) << endl;
 
-        cout << "\nSetelah Penghapusan: ";
-        printList(L);
+    deleteList(L);
 
-        cout << "\nJumlah node : " << nbList(L) << endl;
-
-        deleteList(L);
-
-        cout << "\n- List Berhasil Terhapus -" << endl;
-        cout << "Jumlah node : " << nbList(L) << endl;
-
-        cout << endl;
-    }
+    cout << "\n- List Berhasil Terhapus -" << endl;
+    cout << "Jumlah node : " << nbList(L) << endl;
 
     return 0;
 }
