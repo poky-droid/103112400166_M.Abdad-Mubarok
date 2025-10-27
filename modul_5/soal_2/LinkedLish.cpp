@@ -1,4 +1,4 @@
-#include "LinkedList.h"
+#include "LinkedLish.h"
 
 void append(Node*& head, int value) {
     Node* newNode = new Node{value, nullptr};
