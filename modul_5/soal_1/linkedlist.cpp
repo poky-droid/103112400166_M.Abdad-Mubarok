@@ -1,6 +1,5 @@
 #include "LinkedList.h"
 
-// Membuat node baru
 Node* createNode(int value) {
     Node* newNode = new Node;
     newNode->data = value;
@@ -8,7 +7,6 @@ Node* createNode(int value) {
     return newNode;
 }
 
-// Menambah node di akhir linked list
 void append(Node*& head, int value) {
     Node* newNode = createNode(value);
     if (!head) {
@@ -21,7 +19,6 @@ void append(Node*& head, int value) {
     }
 }
 
-// Menampilkan isi linked list
 void displayList(Node* head) {
     cout << "Linked List yang dibuat: ";
     while (head) {
@@ -31,7 +28,6 @@ void displayList(Node* head) {
     cout << "NULL" << endl;
 }
 
-// Menghitung jumlah node
 int getSize(Node* head) {
     int count = 0;
     while (head) {
@@ -41,7 +37,6 @@ int getSize(Node* head) {
     return count;
 }
 
-// Mengambil node pada posisi tertentu
 Node* getNodeAt(Node* head, int index) {
     for (int i = 0; head && i < index; i++)
         head = head->next;
