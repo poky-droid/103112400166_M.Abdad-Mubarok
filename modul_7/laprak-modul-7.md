@@ -870,7 +870,9 @@ Program ini memperlihatkan bagaimana dua stack dapat digunakan untuk memilah dat
 
 
 ## Kesimpulan
-
+Dari seluruh percobaan pada modul stack, dapat disimpulkan bahwa stack merupakan struktur data yang bekerja dengan prinsip LIFO, di mana data terakhir yang masuk akan menjadi data pertama yang keluar. Melalui guided dan unguided, mahasiswa dapat memahami cara kerja operasi dasar seperti push, pop, update, view, serta variasi penerapannya pada kasus berbeda. Praktikum ini memberikan gambaran jelas bahwa stack sangat fleksibel dan dapat digunakan untuk memproses data secara terstruktur dan efisien.
 
 ## Referensi
-
+[1]GeeksforGeeks — Stack Data Structure  https://www.geeksforgeeks.org/dsa/stack-data-structure/<br/>
+[2]Tutorialspoint — Stack Data Structure  https://www.programiz.com/dsa/stack <br/>
+[3]Programiz — Stack  https://ocw.mit.edu <br/>
