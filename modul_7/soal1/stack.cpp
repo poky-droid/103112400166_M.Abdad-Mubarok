@@ -39,10 +39,17 @@ void printInfo(Stack S) {
 void balikStack(Stack &S) {
     Stack tempStack;
     createStack(tempStack);
+    
     while (S.top != -1) {
         Infotype nilai = pop(S);
         tempStack.top++;
         tempStack.info[tempStack.top] = nilai;
     }
+    
     S = tempStack;
+    
+    cout << "Stack telah dibalik." << endl;
+    printInfo(S);
 }
+
+
