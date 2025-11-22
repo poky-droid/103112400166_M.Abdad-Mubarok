@@ -9,7 +9,7 @@ typedef struct Queue {
     int head;
     int tail;     
 
-};
+} Queue;
 
 void CreateQueue(Queue &Q);
 bool isEmptyQueue(Queue Q);
