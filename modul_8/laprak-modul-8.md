@@ -823,5 +823,6 @@ Seluruh implementasi mendukung konsep dasar queue yaitu FIFO (First In First Out
 [1] Jurnal Center — Implementasi Struktur Data Queue dan Stack dalam Sistem Antrian Kasir Cafe Berbasis Web
 https://journalcenter.org/index.php/jupikom/article/view/5524<br/>
 [2] USTJ — Simulasi Penerapan Multiple Queue Multiple Server Pada Antrian Bank Dengan Metode Discrete Event Simulation
+https://ejournal.ust.ac.id/index.php/Jurnal_Means/article/view/2<br/>
 [3] Global Scients — Implementasi Queue Berbasis Linked List Pada Aplikasi Web Manajemen Antrian Print Mahasiswa
 https://jurnal.globalscients.com/index.php/jiki/article/view/709 <br/>
