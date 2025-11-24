@@ -17,7 +17,6 @@ bool isFullQueue(Queue Q){
 void enqueue(Queue &Q, Infotype x){
    if (!isFullQueue(Q)){
         if (isEmptyQueue(Q)){
-            // first element
             Q.head = 0;
             Q.tail = 0;
             Q.info[Q.tail] = x;
@@ -34,7 +33,6 @@ Infotype dequeue(Queue &Q){
     if (!isEmptyQueue(Q)) {
         int x = Q.info[Q.head];
 
-        // if removing last element, reset queue to empty state
         if (Q.head == Q.tail) {
             Q.head = -1;
             Q.tail = -1;
