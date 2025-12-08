@@ -11,7 +11,7 @@ address alokasi(infotype x) {
     return p;
 }
 
-// Insert ke BST
+// Insert
 void insertNode(address &root, infotype x) {
     if (root == Nil) {
         root = alokasi(x);
@@ -22,7 +22,7 @@ void insertNode(address &root, infotype x) {
     }
 }
 
-// Mencari node
+// Find
 address findNode(infotype x, address root) {
     if (root == Nil) return Nil;
     if (x == root->info) return root;
@@ -30,7 +30,7 @@ address findNode(infotype x, address root) {
     else return findNode(x, root->right);
 }
 
-// Traversal InOrder
+// InOrder
 void printInOrder(address root) {
     if (root != Nil) {
         printInOrder(root->left);
@@ -39,6 +39,20 @@ void printInOrder(address root) {
     }
 }
 
+// PreOrder
+void printPreOrder(address root) {
+    if (root != Nil) {
+        cout << root->info << " - ";
+        printPreOrder(root->left);
+        printPreOrder(root->right);
+    }
+}
 
-
-
+// PostOrder
+void printPostOrder(address root) {
+    if (root != Nil) {
+        printPostOrder(root->left);
+        printPostOrder(root->right);
+        cout << root->info << " - ";
+    }
+}

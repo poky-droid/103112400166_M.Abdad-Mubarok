@@ -4,7 +4,6 @@
 #define Nil NULL
 
 typedef int infotype;
-
 typedef struct Node *address;
 
 struct Node {
@@ -14,16 +13,10 @@ struct Node {
 };
 
 address alokasi(infotype x);
-
 void insertNode(address &root, infotype x);
-
 address findNode(infotype x, address root);
-
 void printInOrder(address root);
-
 void printPreOrder(address root);
 void printPostOrder(address root);
-
-
 
 #endif
