@@ -13,7 +13,7 @@ int main() {
     insertNode(root,4);
     insertNode(root,5);
     insertNode(root,3);
-    insertNode(root,6);   // duplikat → diabaikan
+    insertNode(root,6);   
     insertNode(root,7);
 
     printInOrder(root);
