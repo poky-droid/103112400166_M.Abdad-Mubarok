@@ -68,7 +68,6 @@ int main() {
                     cout << "Data belum diinput! Jalankan Soal 1 terlebih dahulu.\n";
                 } else {
                     cout << "\n=== DELETE PARENT G004 (AMFIBI) ===" << endl;
-                    // G004 berada setelah G003
                     deleteAfterParent(LP, LP.first->next->next);
                     printMLLStructure(LP);
                 }
