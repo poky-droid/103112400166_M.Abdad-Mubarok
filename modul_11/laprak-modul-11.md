@@ -10,15 +10,21 @@ Selain itu, Wijoyo dkk. (2024) dalam JRIIN [2] menjelaskan bahwa struktur linked
 
 #### 
 #### B.Operasi Dasar Multi Linked List<br/>
-
+Operasi dasar pada multi linked list pada dasarnya merupakan pengembangan dari operasi linked list biasa, yang meliputi penambahan data (insert), penghapusan data (delete), pencarian data (search), dan penelusuran data (traversal). Namun, pada multi linked list, setiap operasi harus memperhatikan lebih dari satu hubungan antar node.
+Wijoyo dkk. (2024) dalam JRIIN [2] menyatakan bahwa proses insertion pada linked list dengan banyak pointer harus memperbarui seluruh hubungan antar node agar struktur data tetap konsisten. Hal ini juga berlaku pada proses deletion, di mana node yang dihapus harus diputus dari seluruh relasi yang dimilikinya.
+Penelitian lain oleh Wijoyo dkk. (2024) dalam JRIIN [3] menambahkan bahwa proses pencarian pada struktur linked list lebih efisien dibanding array ketika data bersifat dinamis, meskipun traversal tetap dilakukan secara sekuensial melalui pointer.
 
 ###
 #### C.Implementasi Multi Linked List<br/>
-
+Implementasi multi linked list banyak digunakan dalam aplikasi yang membutuhkan pengelolaan data dengan relasi kompleks. Contoh penerapannya adalah sistem pengelolaan data mahasiswa, di mana satu mahasiswa dapat terhubung dengan beberapa mata kuliah, dan satu mata kuliah dapat diambil oleh banyak mahasiswa.
+Menurut penelitian oleh Sahid dkk. (2025) dalam Jurnal Ilmu Komputer dan Informatika [4], implementasi linked list pada sistem antrian dan manajemen data terbukti mampu meningkatkan efisiensi pengolahan data karena fleksibilitas struktur dan kemudahan pengelolaan memori. Konsep tersebut dapat diperluas menjadi multi linked list untuk menangani lebih dari satu hubungan data.
+Selain itu, Fitra dkk. (2025) dalam Jurnal Mahasiswa Teknik Informatika [5] menjelaskan bahwa implementasi linked list dalam aplikasi pengolahan data memungkinkan pengembangan sistem yang lebih terstruktur dan mudah dikembangkan, terutama ketika jumlah data terus bertambah.
 
 ###
 #### D.Implementasi Multi Linked List<br/>
-
+multi linked list diimplementasikan dengan menggunakan beberapa struktur node yang saling terhubung, seperti node parent dan node child. Setiap node parent dapat memiliki lebih dari satu node child, yang dihubungkan melalui pointer khusus. Implementasi ini sering digunakan dalam studi kasus data hewan, data mahasiswa, atau data transaksi.
+Berdasarkan modul pembelajaran struktur data [6], multi linked list digunakan untuk merepresentasikan hubungan data bertingkat dan saling berkaitan, sehingga memudahkan proses pengolahan data yang kompleks. Setiap perubahan data harus memperhatikan keterkaitan antar node agar struktur tetap valid dan tidak terjadi kehilangan data.
+Dengan demikian, implementasi multi linked list dalam praktikum bertujuan untuk melatih pemahaman mahasiswa terhadap konsep relasi data, penggunaan pointer ganda, serta penerapan struktur data dinamis dalam pemrograman.
 ###
 
 
@@ -1000,11 +1006,15 @@ Setelah node parent G004 berhasil dihapus, struktur Multi Linked List mengalami 
 ## Kesimpulan
 Dari ketiga soal yang telah dikerjakan, dapat disimpulkan bahwa Multi Linked List sangat cocok digunakan untuk menyimpan data yang memiliki hubungan satu ke banyak, seperti golongan hewan dan data hewannya. Proses penambahan data, pencarian, dan penghapusan dapat dilakukan dengan baik tanpa merusak struktur data yang sudah ada. Setiap operasi berjalan sesuai dengan yang diharapkan, sehingga Multi Linked List terbukti efektif dan fleksibel untuk mengelola data yang saling berelasi.
 ## Referensi
-[1] KAKIFIKOM — Implementasi Teknik Binary Search Tree Pada Pencarian Data Penduduk
-https://ejournal.ust.ac.id/index.php/KAKIFIKOM/article/view/1794 
-Ejournal UST<br/>
-[2] Jurnal Ilmiah Universitas Satya Negara Indonesia — IMPLEMENTATION OF BINARY SEARCH TREE METHOD FOR ANDROID-BASED MORSE CODE DESCRIPTION
-https://ejournal.usni.ac.id/index.php/jisni/article/view/27 <br/>
-Rumah Jurnal USNI
-[3] JRIIN : Jurnal Riset Informatika dan Inovasi — Pemanfaatan Pohon Biner Untuk Pemrosesan Data Efisien
-https://jurnalmahasiswa.com/index.php/jriin/article/view/1264 <br/>
+[1] Jurnal Sains Informatika Terapan (JSIT) — Analisis Struktur Data Linked List dalam Pengolahan Data Mahasiswa
+https://rcf-indonesia.org/jurnal/index.php/jsit/article/view/591<br/>
+[2] JRIIN : Jurnal Riset Informatika dan Inovasi — Penggunaan Algoritma Doubly Linked List untuk Insertion dan Deletion
+https://jurnalmahasiswa.com/index.php/jriin/article/view/1282 <br/>
+[3] JRIIN : Jurnal Riset Informatika dan Inovasi — Perbandingan Struktur Linked List dan Array dalam Manajemen Memori
+https://jurnalmahasiswa.com/index.php/jriin/article/view/957 <br/>
+[4] Jurnal Ilmu Komputer dan Informatika — Implementasi Linked List dalam Sistem Antrian
+https://jurnal.globalscients.com/index.php/jiki/article/view/709<br/>
+[5] Jurnal Mahasiswa Teknik Informatika (JATI) — Implementasi Python Linked List untuk Pengolahan Data Mahasiswa
+https://www.ejournal.itn.ac.id/jati/article/view/12164<br/>
+[6] Modul Struktur Data — Implementasi Multi Linked List
+https://id.scribd.com/document/618400689/Jurnal-Modul-10-Multi-Linked-List<br/>
