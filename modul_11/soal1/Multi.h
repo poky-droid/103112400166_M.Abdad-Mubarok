@@ -14,7 +14,7 @@ string idHewan;
 string namaHewan;
 string habitat;
 bool ekor; 
-float bobot; // kg
+float bobot; // 
 };
 
 struct nodeChild;
